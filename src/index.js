@@ -20,7 +20,7 @@ import ReactDOM from "react-dom";
 const name = "Terry";
 const luckyNumber = 7;
 
-// {} refrences to the value assigned to the const variable!
+// {} refrences to the value assigned to the const variable! Allowing you to write jS Statements 
 
 // render can only take one html element, so in order to wrap many HTML elements to appear as one, have all of them go inside a div
 
@@ -28,7 +28,7 @@ ReactDOM.render(
   <div>
     <h1>Hello {name}!</h1>
     <p>Your lucky number is {luckyNumber}</p>
-    <p>Your lucky number is {Math.floor(Math.random() * 7)}</p>
+    <p>Your lucky number is {Math.floor(Math.random() * 10)}</p>
     <p>Created by Ms Teresia Kirung'o</p>
     <p>Copyright @2021</p>
 
