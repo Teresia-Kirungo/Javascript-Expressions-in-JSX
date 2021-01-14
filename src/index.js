@@ -6,15 +6,23 @@
 //E.g.
 //Created by Ms Teresia Kirung'o.
 //Copyright 2021.
+
+// var React = require("react");
+// var ReactDOM = require("react-dom");
+// The above can be achieved through importing the modules like this
+
 import React from "react";
 import ReactDOM from "react-dom";
 
-const name = "Terry";
-const luckyNumber = 7;
+
 // const behave like let variables, except they cannot be reassigned ie
 // once const name = "Terry"; when we do name = "Marcelina"; it will generate an error.
+const name = "Terry";
+const luckyNumber = 7;
 
 // {} refrences to the value assigned to the const variable!
+
+// render can only take one html element, so in order to wrap many HTML elements to appear as one, have all of them go inside a div
 
 ReactDOM.render(
   <div>
